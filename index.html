@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Desafio</title>
+  </head>
+  <div class="container center">
+    <div class="row">
+      <div class="col s12">
+        <h2>Pesquisa de Usuários 🔍</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s10 input-field">
+        <input id="inputBusca" type="text" class="validate" autofocus />
+        <label for="inputBusca">Digite sua busca</label>
+      </div>
+      <div class="col s2">
+        <a id="button" class="waves-effect waves-light btn-large green disabled"
+          >BUSCAR</a
+        >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s6">
+        <h5 id="titleUsersFound">Nenhum usuário filtrado</h5>
+        <div id="tabUsers"></div>
+      </div>
+      <div class="col s6">
+        <h5 id="titleStatisticUsersFound">Nada a ser exibido</h5>
+        <div id="tabStatistic"></div>
+      </div>
+    </div>
+  </div>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/people.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
